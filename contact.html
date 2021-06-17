@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./portfolio.css">
+
+</head>
+<body>
+   <!-- Navigational Bar Section -->
+   <div class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="services.html">Services</a></li>
+    </ul>
+</div>
+
+<div class="row">
+    <div class="column">
+        <h2>Contact</h2>
+        <p>Your cac cantact us by fillng up the contact form.The following steps should be followed while filling up the form</p>
+        <p>
+            <ul>
+             <li>Provide Your Email</li>
+             <li>Specify the heading of your Message</li>
+             <li>Write down Your message at the message box filled.</li>
+            </ul>
+        </p>
+    </div>
+    <div class="column">
+       <form action="">
+           <fieldset>
+            <p>
+                <span class="sp">Email</span> <br> <input type="email" name="email" required placeholder="Enter Your Email Here">
+             </p>
+             <p><span class="sp"> Message Subject</span><br><input type="text"required placeholder="Enter the Message Subject Here" name="subject"></p>
+            <p>
+             <span class="sp">Message</span><br> <textarea name="message" id="msg" cols="30" rows="10"></textarea>
+            </p>
+            <p><input type="submit" onclick="alert ('Message Have Been Submitted Successfully')"></p>
+           </fieldset>
+          
+       </form>
+    </div>
+</div>
+</body>
+</html>
